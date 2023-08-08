@@ -2,3 +2,24 @@ header{
     background-color: rgb(39, 36, 36);
 color: aliceblue;
 }
+.carro-imagem {
+    width:25% ;
+}
+.Cabecalho {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.cabecalho-lista {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.Cabecalho-imagem {
+    width: 20%;
+}
+.Peças {
+    background-image: linear-gradient(black,rgb(39, 37, 37));
+}
