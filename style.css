@@ -1,16 +1,16 @@
-header{
-    background-color: rgb(39, 36, 36);
-color: aliceblue;
+*{
+    margin: 0;
+    padding: 0;
 }
+
 .carro-imagem {
     width:25% ;
 }
 .Cabecalho {
-    background-color: black;
+    background-color: #996464;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
 }
 .cabecalho-lista {
     display: inline-block;
@@ -18,8 +18,13 @@ color: aliceblue;
     font-size: 24px;
 }
 .Cabecalho-imagem {
-    width: 20%;
+    width: 10%;
 }
-.Peças {
-    background-image: linear-gradient(black,rgb(39, 37, 37));
+.Peças{
+    background-image: linear-gradient(#511536, #1D0713, #1D0C15, #000000
+) }
+
+.cabecalho-lista-item { 
+    display: inline-block;
+    margin: 0 16px
 }
